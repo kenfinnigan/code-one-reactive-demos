@@ -1,0 +1,21 @@
+== Reactive Demos for Code One 2019
+
+=== CompletionStage
+
+Start message service:
+
+```
+comp-stage/message> mvn compile quarkus:dev
+```
+
+Start greeting service:
+
+```
+comp-stage/greeting> mvn compile quarkus:dev
+```
+
+
+Execute concurrent requests:
+```
+curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage
+```
