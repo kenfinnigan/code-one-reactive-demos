@@ -3,13 +3,11 @@
 === CompletionStage
 
 Start message service:
-
 ```
 comp-stage/message> mvn compile quarkus:dev
 ```
 
 Start greeting service:
-
 ```
 comp-stage/greeting> mvn compile quarkus:dev
 ```
@@ -19,3 +17,17 @@ Execute concurrent requests:
 ```
 curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage & curl http://localhost:8100/compstage
 ```
+
+=== Server Sent Events
+
+Start data service:
+```
+sse/data> mvn compile quarkus:dev
+```
+
+Start server service:
+```
+sse/server> mvn compile quarkus:dev
+```
+
+Open http://localhost:8100/stream

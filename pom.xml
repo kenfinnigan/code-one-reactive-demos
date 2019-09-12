@@ -20,6 +20,7 @@
 
     <modules>
         <module>comp-stage</module>
+        <module>sse</module>
     </modules>
 
     <dependencyManagement>
